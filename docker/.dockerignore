@@ -1,0 +1,23 @@
+# Node modules should be installed inside the container
+node_modules
+
+# Next.js build output
+.next
+out
+
+# Git directory and files
+.git
+.gitignore
+
+# Log files
+*.log
+
+# Local environment files (if you're passing env variables externally, don't copy these)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional: Docker files if you don't need them in the container
+Dockerfile*
+.dockerignore
